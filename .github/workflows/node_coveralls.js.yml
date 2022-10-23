@@ -25,7 +25,7 @@ jobs:
     - name: Install npm dependencies
       run: npm install
     
-    - name: Run tests
+    - name: Run tests and coverage
       run: npm test
     
     - name: Coveralls GitHub Action
