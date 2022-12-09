@@ -1,16 +1,16 @@
 {
   "name": "test",
   "version": "1.0.0",
-  "description": "",
-  "main": "sum.js",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
-  },
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  }, 
   "keywords": [],
-  "author": "",
+  "author": "Joonas&Matias",
   "license": "ISC",
   "devDependencies": {
     "coveralls": "^3.1.1",
-    "jest": "^29.1.2"
+    "jest": "^29.3.1"
   }
 }
