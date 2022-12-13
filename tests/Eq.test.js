@@ -1,6 +1,6 @@
 import eq from "../src/eq";
 
-test('properly compares objects', () => {
+test('properly compares objects as equivalent', () => {
     const shoppingCartTotal = { 'total': 29.99 }
     const paymentTotal = { 'total': 29.99 }
 
